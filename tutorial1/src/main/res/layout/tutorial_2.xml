@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_tutorial_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击下面按钮试试"/>
+
+    <Button
+        android:id="@+id/btn_tutorial_2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JNI调用实例方法"/>
+
+    <Button
+        android:id="@+id/btn_tutorial_2_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JNI调用静态方法"/>
+</LinearLayout>

@@ -67,7 +67,7 @@ public class Tutorial1Activity extends AppCompatActivity {
     }
 
     static {
-        System.loadLibrary("base-lib");
+        System.loadLibrary("tutorial-1");
     }
 
     private native String newStringFromJNI();

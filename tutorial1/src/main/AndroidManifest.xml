@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.Tutorial1Activity"/>
+        <activity android:name=".activity.Tutorial3Activity"/>
+        <activity android:name=".activity.Tutorial2Activity"/>
     </application>
 
 </manifest>

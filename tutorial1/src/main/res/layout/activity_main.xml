@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="joe.com.ndktutorial.MainActivity">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,7 +13,16 @@
         <Button
             android:id="@+id/tutorial_1"
             style="@style/MyButton"
-            android:text="基础类型创建"/>
-    </LinearLayout>
+            android:text="JNI创建java对象"/>
 
+        <Button
+            android:id="@+id/tutorial_2"
+            style="@style/MyButton"
+            android:text="JNI调用java方法"/>
+
+        <Button
+            android:id="@+id/tutorial_3"
+            style="@style/MyButton"
+            android:text="JNI创建线程"/>
+    </LinearLayout>
 </ScrollView>
