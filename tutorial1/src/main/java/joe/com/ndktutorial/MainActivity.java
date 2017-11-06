@@ -8,6 +8,7 @@ import android.view.View;
 import joe.com.ndktutorial.activity.Tutorial1Activity;
 import joe.com.ndktutorial.activity.Tutorial2Activity;
 import joe.com.ndktutorial.activity.Tutorial3Activity;
+import joe.com.ndktutorial.activity.Tutorial4Activity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.tutorial_1).setOnClickListener(this);
         findViewById(R.id.tutorial_2).setOnClickListener(this);
         findViewById(R.id.tutorial_3).setOnClickListener(this);
+        findViewById(R.id.tutorial_4).setOnClickListener(this);
     }
 
     @Override
@@ -32,6 +34,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.tutorial_3:
                 intent = new Intent(this, Tutorial3Activity.class);
+                break;
+            case R.id.tutorial_4:
+                intent = new Intent(this, Tutorial4Activity.class);
                 break;
         }
         if (intent != null) {
