@@ -36,6 +36,12 @@ add_library(
              SHARED
 
              src/main/cpp/tutorial-4.cpp)
+add_library(
+             tutorial-5
+
+             SHARED
+
+             src/main/cpp/tutorial-5.cpp)
 
 
 # Searches for a specified prebuilt library and stores the path as a
@@ -69,4 +75,7 @@ target_link_libraries(
                        ${log-lib} )
 target_link_libraries(
                        tutorial-4
+                       ${log-lib} )
+target_link_libraries(
+                       tutorial-5
                        ${log-lib} )
