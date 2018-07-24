@@ -42,7 +42,12 @@ add_library(
              SHARED
 
              src/main/cpp/tutorial-5.cpp)
+add_library(
+             tutorial-6
 
+             SHARED
+
+             src/main/cpp/tutorial-6.cpp)
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because CMake includes system libraries in the search path by
@@ -78,4 +83,11 @@ target_link_libraries(
                        ${log-lib} )
 target_link_libraries(
                        tutorial-5
+                       ${log-lib} )
+target_link_libraries(
+                       tutorial-6
+                       ${log-lib} )
+
+target_link_libraries( tutorial-6
+                       jnigraphics
                        ${log-lib} )

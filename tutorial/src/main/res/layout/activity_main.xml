@@ -34,5 +34,10 @@
             android:id="@+id/tutorial_5"
             style="@style/MyButton"
             android:text="JNI Socket"/>
+
+        <Button
+            android:id="@+id/tutorial_6"
+            style="@style/MyButton"
+            android:text="JNI灰度Bitmap"/>
     </LinearLayout>
 </ScrollView>

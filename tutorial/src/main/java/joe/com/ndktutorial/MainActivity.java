@@ -10,6 +10,7 @@ import joe.com.ndktutorial.activity.Tutorial2Activity;
 import joe.com.ndktutorial.activity.Tutorial3Activity;
 import joe.com.ndktutorial.activity.Tutorial4Activity;
 import joe.com.ndktutorial.activity.Tutorial5Activity;
+import joe.com.ndktutorial.activity.Tutorial6Activity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.tutorial_3).setOnClickListener(this);
         findViewById(R.id.tutorial_4).setOnClickListener(this);
         findViewById(R.id.tutorial_5).setOnClickListener(this);
+        findViewById(R.id.tutorial_6).setOnClickListener(this);
     }
 
     @Override
@@ -42,6 +44,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.tutorial_5:
                 intent = new Intent(this, Tutorial5Activity.class);
+                break;
+            case R.id.tutorial_6:
+                intent = new Intent(this, Tutorial6Activity.class);
                 break;
         }
         if (intent != null) {
