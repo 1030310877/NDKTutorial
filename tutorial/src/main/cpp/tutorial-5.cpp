@@ -118,4 +118,6 @@ void setReceiveContent(char buf[50]) {
     if (mid != NULL) {
         env->CallVoidMethod(javaObject, mid, str);
     }
+    env->DeleteLocalRef(jzlass);
+    env->DeleteLocalRef(str);
 }
