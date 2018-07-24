@@ -29,5 +29,10 @@
             android:id="@+id/tutorial_4"
             style="@style/MyButton"
             android:text="JNI读写文件"/>
+
+        <Button
+            android:id="@+id/tutorial_5"
+            style="@style/MyButton"
+            android:text="JNI Socket"/>
     </LinearLayout>
 </ScrollView>
